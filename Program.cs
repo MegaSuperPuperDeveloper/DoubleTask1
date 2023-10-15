@@ -1,4 +1,6 @@
-﻿void PrintMatrix(int[,] matrix) { // Выводит элементы матрикса.
+// Задача: Написать программу, которая будет складывать элементы двух матриксов если их позиции одинаковые
+
+void PrintMatrix(int[,] matrix) { // Выводит элементы матрикса.
     for(int i = 0; i < matrix.GetLength(0); i++) {
         for(int j = 0; j < matrix.GetLength(1); j++) {
             Console.Write($"{matrix[i, j]}\t");
